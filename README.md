@@ -348,7 +348,7 @@ This repository contains:
 
 ### ✅ Video Demonstration
 
-**[demo.mp4](./demo.mp4)** - Comprehensive walkthrough covering:
+**[demo.mp4]** - Comprehensive walkthrough covering:
 - SDK installation and setup
 - Quick start example (< 10 lines of code)
 - Complete FHE flow (encrypt, submit, decrypt)
