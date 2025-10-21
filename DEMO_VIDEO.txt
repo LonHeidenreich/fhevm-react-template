@@ -1,0 +1,98 @@
+# 🎥 Demo Video Information
+
+## File Name
+demo.mp4
+
+## Important Notice
+⚠️ The demo.mp4 video file must be downloaded from the repository to watch.
+Online streaming links are not supported - download the file locally to view.
+
+## Repository Information
+GitHub: https://github.com/LonHeidenreich/fhevm-react-template
+Live Demo: https://violation-handler.vercel.app/
+
+## Video Content (5-10 minutes)
+
+### 1. Introduction (30 seconds)
+- Universal FHEVM SDK overview
+- Framework-agnostic design
+- Competition goals
+
+### 2. Quick Start Demo (2 minutes)
+- Installing the SDK: npm install @zama/fhevm-sdk
+- Writing < 10 lines of code
+- Running encryption example
+- Demonstrating ease of use
+
+### 3. Complete FHEVM Flow (3 minutes)
+- Client initialization
+- Input encryption
+- Contract interaction
+- Permission-based decryption
+- Error handling and loading states
+
+### 4. Live Application Demo (2-3 minutes)
+- Traffic Violation Reporter walkthrough
+- Live demo at: https://violation-handler.vercel.app/
+- Confidential violation reporting
+- Private payment processing
+- Emergency pause mechanism
+- Real-time encryption/decryption
+
+### 5. SDK Integration Comparison (1 minute)
+- Before SDK: 30+ lines of boilerplate
+- After SDK: < 10 lines
+- 83% code reduction
+- Developer experience improvements
+
+### 6. Framework Agnostic Design (1 minute)
+- Core SDK architecture
+- React adapter with hooks
+- Vue compatibility structure
+- Node.js backend support
+
+### 7. Conclusion (30 seconds)
+- Key benefits summary
+- Production ready
+- Competition requirements met
+- Future roadmap
+
+## Recording Recommendations
+
+### Tools
+- OBS Studio (free, open-source)
+- Loom (browser-based)
+- Camtasia (professional)
+
+### Settings
+- Resolution: 1920x1080 (Full HD)
+- Frame Rate: 30 FPS minimum
+- Audio: Clear voice narration
+- File Format: MP4 (H.264 codec)
+- File Size: Under 500MB recommended
+
+### Tips
+✅ Show code clearly (use large fonts)
+✅ Demonstrate live functionality
+✅ Keep video focused and concise
+✅ Use clear, professional narration
+✅ Show browser console for transparency
+✅ Demonstrate wallet interactions
+✅ Show encryption/decryption in action
+
+## Download Instructions for Viewers
+
+1. Go to repository: https://github.com/LonHeidenreich/fhevm-react-template
+2. Locate demo.mp4 in the root directory
+3. Click "Download" or "View Raw"
+4. Save file to your local machine
+5. Open with your preferred video player
+
+## Alternative: Live Demo
+
+If you prefer to see the application in action without downloading the video:
+Visit: https://violation-handler.vercel.app/
+
+## Contact
+
+For questions about the video or demo, please open an issue in the GitHub repository.
