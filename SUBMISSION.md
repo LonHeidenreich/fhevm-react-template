@@ -6,9 +6,11 @@
 
 **Competition**: Zama FHEVM React Template Evolution
 
+**Repository**: https://github.com/LonHeidenreich/fhevm-react-template
 
+**Live Demo**: https://violation-handler.vercel.app/
 
-**Repository**: [GitHub Link]
+**Video Demo**: Download `demo.mp4` from repository (video requires download to watch)
 
 ---
 
@@ -46,8 +48,9 @@
 - [x] Setup instructions
 
 ### ✅ 5. Deployment Links
-- [ ] Next.js Showcase: [Deployment URL]
-- [ ] Traffic Violation Reporter: [Deployment URL]
+- [x] Traffic Violation Reporter: https://violation-handler.vercel.app/
+- [x] Live example demonstrating SDK integration
+- [x] Production deployment on Vercel
 
 ---
 
@@ -403,12 +406,12 @@ fhevm-react-template/
 ## 🔗 Links
 
 ### Repository
-- **GitHub**: [Repository URL]
-- **Demo Video**: [demo.mp4](./demo.mp4)
+- **GitHub**: https://github.com/LonHeidenreich/fhevm-react-template
+- **Demo Video**: Download `demo.mp4` from repository (requires download to watch)
 
 ### Live Deployments
-- **Next.js Showcase**: [Deployment URL]
-- **Traffic Violation Reporter**: [Deployment URL]
+- **Traffic Violation Reporter**: https://violation-handler.vercel.app/
+- **Live Example**: Production deployment demonstrating SDK integration
 
 ### Documentation
 - **Main README**: [README.md](./README.md)
