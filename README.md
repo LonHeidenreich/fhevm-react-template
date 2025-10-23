@@ -358,7 +358,6 @@ This repository contains:
 
 ### ✅ Deployment Links
 
-- **Next.js Showcase**: https://fhevm-sdk-showcase.vercel.app
 - **Traffic Violation Reporter**: https://traffic-violation-reporter.vercel.app
 
 ---
