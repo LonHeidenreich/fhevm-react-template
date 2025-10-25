@@ -6,13 +6,17 @@
 [![FHEVM](https://img.shields.io/badge/Powered%20by-FHEVM-blue)](https://docs.zama.ai/fhevm)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue)](https://www.typescriptlang.org/)
 
+**GitHub Repository**: [https://github.com/LonHeidenreich/fhevm-react-template](https://github.com/LonHeidenreich/fhevm-react-template)
+
+**Live Demo**: [https://violation-handler.vercel.app/](https://violation-handler.vercel.app/)
+
+**Video Demo**: Download and watch `demo.mp4` for a complete walkthrough
+
+---
+
 ## 🌟 Overview
 
-The Universal FHEVM SDK is a **framework-agnostic** toolkit that makes building confidential frontends simple, consistent, and developer-friendly. Inspired by wagmi's intuitive API design, this SDK wraps all necessary FHEVM packages into a single, easy-to-use interface.
-
-**Live Demo**: [Next.js Showcase](https://your-demo-link.vercel.app)
-
-**Video Walkthrough**: [Watch demo.mp4](./demo.mp4)
+The Universal FHEVM SDK is a **framework-agnostic** toolkit that makes building confidential frontends simple, consistent, and developer-friendly. Inspired by wagmi's intuitive API design, this SDK wraps all necessary FHEVM packages into a single, easy-to-use interface
 
 ---
 
