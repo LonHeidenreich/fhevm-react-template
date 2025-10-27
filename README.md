@@ -142,16 +142,27 @@ fhevm-react-template/
 │       ├── tsconfig.json
 │       └── README.md                 # SDK documentation
 ├── examples/
-│   ├── nextjs-showcase/              # Primary Next.js demo
+│   ├── nextjs-showcase/              # Comprehensive Next.js SDK demo
+│   │   ├── app/
+│   │   │   ├── examples/
+│   │   │   │   ├── encryption/       # Encryption examples
+│   │   │   │   ├── decryption/       # Decryption examples
+│   │   │   │   └── contracts/        # Contract interaction examples
+│   │   │   ├── layout.tsx
+│   │   │   ├── page.tsx
+│   │   │   └── providers.tsx
+│   │   ├── components/               # Reusable UI components
+│   │   ├── lib/                      # Configuration and utilities
+│   │   └── package.json
+│   ├── traffic-violation-reporter/   # Real-world application example
 │   │   ├── app/
 │   │   ├── components/
-│   │   ├── lib/
+│   │   ├── contracts/
 │   │   └── package.json
-│   └── traffic-violation-reporter/   # Real-world example
-│       ├── app/
-│       ├── components/
+│   └── AnonymousViolationHandler/    # Privacy-focused violation system
 │       ├── contracts/
-│       └── package.json
+│       ├── public/
+│       └── README.md
 ├── .github/
 │   └── workflows/
 │       └── ci.yml                    # CI/CD pipeline
@@ -295,8 +306,13 @@ const decrypted = await decrypt(client, encryptedHandle);
 
 ### Example Templates
 
-- **[Next.js Showcase](./examples/nextjs-showcase/README.md)** - Full-featured Next.js demo
-- **[Traffic Violation Reporter](./examples/traffic-violation-reporter/README.md)** - Real-world application
+- **[Next.js Showcase](./examples/nextjs-showcase/README.md)** - Comprehensive SDK integration examples
+  - Encryption demonstrations (uint8, uint16, uint32, bool, address)
+  - Decryption with permit management
+  - Contract interaction workflows
+  - React hooks usage patterns
+- **[Traffic Violation Reporter](./examples/traffic-violation-reporter/README.md)** - Production-ready real-world application
+- **[Anonymous Violation Handler](./examples/AnonymousViolationHandler/README.md)** - Privacy-focused violation reporting system
 
 ### Guides
 
@@ -307,7 +323,30 @@ const decrypted = await decrypt(client, encryptedHandle);
 
 ---
 
-## 🎨 Example: Traffic Violation Reporter
+## 🎨 Example Applications
+
+### Next.js Showcase - SDK Integration Examples
+
+A comprehensive demonstration of all Universal FHEVM SDK capabilities with interactive examples.
+
+**Features**:
+- 🔐 Complete encryption examples for all data types
+- 🔓 Decryption workflow with permit system
+- 📝 Contract interaction patterns
+- ⚡ React hooks integration
+- 🎯 Step-by-step tutorials
+- 💡 Code examples and best practices
+
+**Tech Stack**:
+- Universal FHEVM SDK
+- Next.js 16 + App Router
+- TypeScript
+- Tailwind CSS
+- wagmi + RainbowKit
+
+**Source Code**: [examples/nextjs-showcase](./examples/nextjs-showcase)
+
+### Traffic Violation Reporter - Real-World Application
 
 A production-ready confidential traffic violation reporting system built with the Universal FHEVM SDK.
 
@@ -328,6 +367,21 @@ A production-ready confidential traffic violation reporting system built with th
 
 **Source Code**: [examples/traffic-violation-reporter](./examples/traffic-violation-reporter)
 
+### Anonymous Violation Handler - Privacy-Focused System
+
+A privacy-first traffic violation processing system leveraging FHE technology.
+
+**Features**:
+- 🔐 Anonymous violation reporting
+- 🎭 Encrypted license plate storage
+- 💸 Confidential payment verification
+- 🌐 Decentralized record keeping
+- 👮 Administrative oversight controls
+
+**Live Demo**: [View Application](https://anonymous-violation-handler.vercel.app)
+
+**Source Code**: [examples/AnonymousViolationHandler](./examples/AnonymousViolationHandler)
+
 ---
 
 ## 🏆 Competition Deliverables
@@ -342,9 +396,15 @@ This repository contains:
 
 ### ✅ Example Templates
 
-**Primary**: Next.js Showcase - Full-featured demonstration of SDK capabilities
+**Primary**: Next.js Showcase - Comprehensive demonstration of SDK capabilities
+- Interactive encryption examples for all FHE data types
+- Complete decryption workflow with permit management
+- Contract interaction tutorials
+- React hooks integration patterns
 
-**Additional**: Traffic Violation Reporter - Real-world confidential application
+**Additional Examples**:
+1. Traffic Violation Reporter - Production-ready confidential application
+2. Anonymous Violation Handler - Privacy-focused reporting system
 
 ### ✅ Video Demonstration
 
@@ -359,6 +419,7 @@ This repository contains:
 ### ✅ Deployment Links
 
 - **Traffic Violation Reporter**: https://traffic-violation-reporter.vercel.app
+- **Anonymous Violation Handler**: https://anonymous-violation-handler.vercel.app
 
 ---
 
@@ -431,11 +492,33 @@ npm install
 # Build SDK
 npm run build:sdk
 
-# Run Next.js showcase
-npm run dev:nextjs
+# Run Next.js showcase (port 3001)
+cd examples/nextjs-showcase
+npm install
+npm run dev
 
-# Run Traffic Violation Reporter
-npm run dev:traffic
+# Run Traffic Violation Reporter (port 3000)
+cd examples/traffic-violation-reporter
+npm install
+npm run dev
+```
+
+### Running Examples
+
+Each example can be run independently:
+
+```bash
+# Next.js Showcase - SDK Integration Examples
+cd examples/nextjs-showcase
+npm install
+npm run dev
+# Open http://localhost:3001
+
+# Traffic Violation Reporter
+cd examples/traffic-violation-reporter
+npm install
+npm run dev
+# Open http://localhost:3000
 ```
 
 ### Available Scripts
