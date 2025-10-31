@@ -50,6 +50,77 @@ export {
   type PermitRequestOptions,
 } from './core/decryption';
 
+// Utility exports
+export {
+  isValidAddress,
+  isValidEncryptedData,
+  isValidSignature,
+  sanitizeInput,
+  generateRandomBytes,
+  secureCompare,
+  isInRange,
+  isValidPermit,
+  RateLimiter,
+  SecureStorage,
+} from './utils/security';
+
+export {
+  validateFheValue,
+  inferFheType,
+  validateNetworkConfig,
+  validateEncryptedInput,
+  validatePermitOptions,
+  validateDecryptionPermit,
+  validateEncryptedHandle,
+  validateHandleBatch,
+  validateContractABI,
+  validateTxParams,
+  FHE_RANGES,
+} from './utils/validation';
+
+// Type exports
+export type {
+  FheType as FheDataType,
+  EncryptedHandle,
+  EncryptedInputBuilder,
+  FheComputationType,
+  FheComputationRequest,
+  EncryptionFunction,
+  DecryptionFunction,
+  FhevmInstanceConfig,
+  EncryptedValueMetadata,
+  BatchDecryptionResult,
+  PermitCacheEntry,
+  FheTransactionOptions,
+  EncryptedEventLog,
+} from './types/fhe';
+
+export type {
+  ApiResponse,
+  EncryptionRequest,
+  EncryptionResponse,
+  DecryptionRequest,
+  DecryptionResponse,
+  BatchEncryptionRequest,
+  BatchEncryptionResponse,
+  BatchDecryptionRequest,
+  BatchDecryptionResponse,
+  PermitSignatureRequest,
+  PermitSignatureResponse,
+  ComputationRequest,
+  ComputationResponse,
+  KeyManagementRequest,
+  KeyManagementResponse,
+  HealthCheckResponse,
+  ErrorDetails,
+  TransactionResult,
+  TransactionStatus,
+  GatewayStatus,
+  NetworkStatus,
+} from './types/api';
+
+export { SdkError, SdkErrorCode } from './types/api';
+
 /**
  * Quick start example
  *
