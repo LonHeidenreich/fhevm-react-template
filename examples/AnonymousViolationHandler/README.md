@@ -1,6 +1,6 @@
 # Anonymous Violation Handler
 
-A privacy-focused traffic violation reporting system built on blockchain technology using Fully Homomorphic Encryption (FHE) to protect user privacy while maintaining transparency in traffic law enforcement.
+A privacy-focused traffic violation reporting system built with React, Next.js, and Zama's Fully Homomorphic Encryption (FHE) technology to protect user privacy while maintaining transparency in traffic law enforcement.
 
 ## 🔐 Core Concept: FHE-Based Anonymous Violation Processing
 
@@ -24,11 +24,11 @@ Our system transforms traditional traffic enforcement by introducing a decentral
 - **Admin Controls**: Administrative functions for fine management and payment processing
 
 ### Violation Types Supported
-- Speeding violations
-- Illegal parking
-- Red light violations
-- Seatbelt violations
-- Mobile phone usage while driving
+- Speeding violations (0.15 ETH)
+- Illegal parking (0.05 ETH)
+- Red light violations (0.20 ETH)
+- Seatbelt violations (0.10 ETH)
+- Mobile phone usage while driving (0.12 ETH)
 
 ## 🌐 Live Application
 
@@ -42,29 +42,15 @@ Experience the privacy-focused violation reporting system with a user-friendly i
 
 The smart contract is deployed on the Sepolia testnet and handles all violation reporting, payment processing, and administrative functions while maintaining user privacy through FHE technology.
 
-## 🎥 Demo Materials
-
-### Video Demonstration
-The repository includes a comprehensive video demonstration showing:
-- Complete user workflow from violation reporting to payment
-- Admin panel functionality
-- Privacy features in action
-- Real-time blockchain interactions
-
-### Transaction Screenshots
-Visual documentation of on-chain transactions demonstrating:
-- Violation reporting transactions
-- Payment processing confirmations
-- Administrative operations
-- Gas optimization strategies
-
 ## 🛠 Technical Architecture
 
 ### Frontend Technology
-- Pure HTML/CSS/JavaScript implementation
-- Ethers.js for blockchain connectivity
-- Responsive design for mobile and desktop
-- Real-time transaction feedback
+- **Next.js 14** with App Router
+- **React 18** with TypeScript
+- **Tailwind CSS** for responsive design
+- **wagmi** for Ethereum interactions
+- **RainbowKit** for wallet connection
+- **FHEVM SDK** for encrypted computing
 
 ### Smart Contract Features
 - FHE-compatible data structures
@@ -79,6 +65,62 @@ Visual documentation of on-chain transactions demonstrating:
 - Zero-knowledge violation proofs
 - Confidential payment verification
 
+## 🚀 Getting Started
+
+### Prerequisites
+- Node.js 18+ installed
+- MetaMask or compatible Web3 wallet
+- Sepolia testnet ETH for testing
+
+### Installation
+
+```bash
+# Install dependencies
+npm install
+
+# Run development server
+npm run dev
+
+# Open http://localhost:3002
+```
+
+### Build for Production
+
+```bash
+npm run build
+npm start
+```
+
+## 📂 Project Structure
+
+```
+AnonymousViolationHandler/
+├── app/
+│   ├── layout.tsx          # Root layout with providers
+│   ├── page.tsx            # Main page
+│   ├── providers.tsx       # Web3 providers
+│   └── globals.css         # Global styles
+├── components/
+│   ├── WalletInfo.tsx      # Wallet connection display
+│   ├── ReportViolation.tsx # Violation reporting form
+│   ├── PaymentProcessing.tsx # Payment submission
+│   ├── ViolationQuery.tsx  # Query violations
+│   ├── AdminPanel.tsx      # Admin functions
+│   └── SystemStats.tsx     # Statistics display
+├── lib/
+│   ├── contract.ts         # Contract ABI and config
+│   └── wagmi.ts            # Wagmi configuration
+├── contracts/
+│   └── AnonymousViolationHandler.sol # Smart contract
+├── public/
+│   └── legacy/             # Original HTML version
+├── package.json
+├── tsconfig.json
+├── next.config.js
+├── tailwind.config.js
+└── README.md
+```
+
 ## 🔍 How It Works
 
 1. **Violation Reporting**: Users input violation details, which are automatically encrypted and anonymized
@@ -86,14 +128,6 @@ Visual documentation of on-chain transactions demonstrating:
 3. **Payment Processing**: Violators can make payments using cryptographic proofs
 4. **Verification**: Payments are verified and recorded without revealing personal information
 5. **Administrative Oversight**: Authorized personnel can manage fines and process payments
-
-## 🏛 Governance & Administration
-
-The system includes administrative controls for:
-- Fine amount management per violation type
-- Payment verification and processing
-- System parameter adjustments
-- Violation record queries
 
 ## 🔒 Security & Privacy
 
@@ -131,18 +165,36 @@ This project represents a significant advancement in civic technology by combini
 - Decentralized operations with centralized accountability
 - Modern cryptography with practical applications
 
-## 📂 Repository
+## 🎥 Demo Materials
 
-**GitHub**: [https://github.com/LonHeidenreich/AnonymousViolationHandler](https://github.com/LonHeidenreich/AnonymousViolationHandler)
+### Video Demonstration
+The repository includes a comprehensive video demonstration (`Video Demonstration.mp4`) showing:
+- Complete user workflow from violation reporting to payment
+- Admin panel functionality
+- Privacy features in action
+- Real-time blockchain interactions
+
+### Transaction Screenshots
+Visual documentation (`Transaction Screenshot.png`) of on-chain transactions demonstrating:
+- Violation reporting transactions
+- Payment processing confirmations
+- Administrative operations
+- Gas optimization strategies
 
 ## 🤝 Contributing
 
 We welcome contributions to improve the privacy and functionality of the Anonymous Violation Handler. Please review the codebase and submit pull requests for enhancements.
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](../LICENSE) file for details.
 
 ## ⚖️ Legal Notice
 
 This system is designed for demonstration and research purposes. Implementation in real-world traffic enforcement should comply with local privacy laws and regulations.
 
 ---
+
+**Powered by Zama FHEVM** 🔐
 
 *Building the future of privacy-preserving civic technology through blockchain innovation.*
