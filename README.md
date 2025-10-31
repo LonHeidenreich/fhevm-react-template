@@ -6,10 +6,9 @@
 [![FHEVM](https://img.shields.io/badge/Powered%20by-FHEVM-blue)](https://docs.zama.ai/fhevm)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue)](https://www.typescriptlang.org/)
 
-**GitHub Repository**: [https://github.com/YOUR_USERNAME/fhevm-react-template](https://github.com/YOUR_USERNAME/fhevm-react-template)
+
 
 **Live Demos**:
-- Traffic Violation Reporter: [https://traffic-violation-reporter.vercel.app](https://traffic-violation-reporter.vercel.app)
 - Anonymous Violation Handler: [https://anonymous-violation-handler.vercel.app](https://anonymous-violation-handler.vercel.app)
 
 **Video Demo**: Download and watch `demo.mp4` for a complete walkthrough
