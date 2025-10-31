@@ -405,7 +405,7 @@ A production-ready confidential traffic violation reporting system built with th
 - Solidity 0.8.24
 - Hardhat development framework
 
-**Live Demo**: [View Application](https://traffic-violation-reporter.vercel.app)
+**Live Demo**: [View Application](https://violation-handler.vercel.app/)
 
 **Source Code**: [examples/traffic-violation-reporter](./examples/traffic-violation-reporter)
 
@@ -476,7 +476,7 @@ This repository contains:
 
 ### ✅ Deployment Links
 
-- **Traffic Violation Reporter**: https://traffic-violation-reporter.vercel.app
+- **Traffic Violation Reporter**: https://violation-handler.vercel.app/
 - **Anonymous Violation Handler**: https://anonymous-violation-handler.vercel.app
 
 ---
@@ -710,8 +710,8 @@ Special thanks to the Zama team for building FHEVM and organizing this competiti
 ---
 
 **Competition Submission**: Universal FHEVM SDK
-**Built by**: [Your Name/Team]
-**Date**: 2025-10-24
+**Built by**: [L]
+ 
 
 **Powered by Zama** 🔐
 
